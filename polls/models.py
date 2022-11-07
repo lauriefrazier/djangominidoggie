@@ -26,3 +26,7 @@ class Choice(models.Model):
     choice_text = models.CharField(max_length=200)
     votes = models.IntegerField(default=0)
 
+
+def percentage(self):
+    total_votes = Choice.objects.filter(survey=self.survey).count()
+    return (self.votes / total_votes) * 100
