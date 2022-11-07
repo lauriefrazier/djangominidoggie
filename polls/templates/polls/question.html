@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>List of Candidates</h1>
+
+<div class="container text-center">
+    {% if dogs %}
+    <div class="row">
+    {%  for dog in dogs [0:4]: %}
+        <div class="col">
+            <img src="static/images/{{ dog.image }}" alt={{ dog.name }} width="120" height="90" />
+            <p>{{ dog.name }}</p>
+
+        </div>
+<div class="row">
+    {%  for dog in dogs [3:7]: %}
+        <div class="col">
+            <img src="static/images/{{ dog.image }}" alt={{ dog.name }} width="120" height="90" />
+            <p>{{ dog.name }}</p>
+
+        </div>
+</div>
+</body>
+</html>
