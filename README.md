@@ -1,4 +1,7 @@
+# INF 601 Advanced Programming with Python
+# Laurie Frazier
 # Mini Project 4: Doggie
+
 
 ### Please commit these before you start:
 ````
