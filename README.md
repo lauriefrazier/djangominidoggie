@@ -1,6 +1,7 @@
-#Mini Project 4: Doggie
-###Please pip install the requirements txt and the manage.py.
-##Purpose of Project
+# Mini Project 4: Doggie
+
+### Please pip install the requirements txt and the manage.py.
+## Purpose of Project
 The purpose of this project was to use Django to create an app. I have the basic command from the Django tutorial and changed
 the look and needs to fit my purpose. I wanted to create a Dog of the Month application to create a polling system.
 
